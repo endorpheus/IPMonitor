@@ -27,8 +27,8 @@
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/endorpheus/ip-monitor.git
-   cd ip-monitor
+   git clone https://github.com/endorpheus/IPMonitor.git
+   cd IPMonitor
    ```
 
 2. **Create a Virtual Environment (Optional but recommended)**:
@@ -44,7 +44,7 @@
 
 4. **Run the Application**:
    ```bash
-   python main.py
+   python IPMonitor.py
    ```
 
 ## Usage
@@ -54,19 +54,19 @@
 
 ## Contribution
 
-Contributions are welcome! If you have suggestions, improvements, or issues to report, please open an issue or submit a pull request on the [GitHub repository](https://github.com/endorpheus/ip-monitor).
+Contributions are welcome! If you have suggestions, improvements, or issues to report, please open an issue or submit a pull request on the [GitHub repository](https://github.com/endorpheus/IPMonitor).
 
 ## Testing
 
 So far, this has been tested on Linux with success under Linux with Cinnamon, KDE Plasma, and Enlightenment.
-Feel free to let me know if you have tested it and if there were any issues. I don't expect there will be any since it's a very basic application.
+Feel free to let me know if you have tested it elsewhere, and if there were any issues. I don't expect there will be any, since it's a very basic application (and Python loves us all).
 
 ## The Future
 
 **Things to do:**
 - add an update interval timer
 - add a notification system on IP changes
-- perhaps a switch for command line usage
+- perhaps a switch or two for command line usage
 - color, font, and text themes for the information display
 - or we could just keep it simple... nah...
 
@@ -76,4 +76,4 @@ Feel free to let me know if you have tested it and if there were any issues. I d
 - [psutil](https://psutil.readthedocs.io/en/latest/)
 - [requests](https://docs.python-requests.org/en/latest/)
 
-### Thanks for checking out IP Monitor!
+### Thanks for checking out IPMonitor!
