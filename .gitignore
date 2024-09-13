@@ -1,0 +1,13 @@
+# Ignore the bak directory
+/bak/
+
+# Other ignore rules
+*.log
+*.tmp
+
+# Ignore generated files
+*.pyc
+
+# ignore pycache
+__pycache__
+
